@@ -65,6 +65,11 @@
    font-weight: bold;
    color: #474747; 
 }
+
+.text-center{
+    text-align: center;
+}
+
 /* main style */
 
 header{
@@ -72,7 +77,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, right bottom;
+    background-position: 23px 38px, right bottom;
 }
 nav{
     width: 71%;
@@ -223,3 +228,56 @@ border-radius: 5px;
 hr{
     margin:30px 0px;
 }
+.text-center .btn{
+    margin: 50px auto;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container{
+    display: flex;
+    max-width: 1140px;
+    width: 71%;
+    margin: 0px auto;
+    gap: 116px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    font-size: 16px;
+    color: #474747;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .social .icons img{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"], input[type="email"],textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+/* .footer-container form textarea{
+    width: 461px;
+    height: 180px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+} */
